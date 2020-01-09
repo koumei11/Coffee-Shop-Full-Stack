@@ -34,7 +34,7 @@ The `./frontend` directory contains a complete Ionic frontend to consume the dat
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
 
-### End Points
+## End Points
 Use @app.route('/drinks') to get all drinks
 
 Use @app.route('/drinks-detail') to get all drinks with the names
