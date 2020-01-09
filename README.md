@@ -33,3 +33,14 @@ The `./backend` directory contains a partially completed Flask server with a pre
 The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app. 
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
+
+### End Points
+Use @app.route('/drinks') to get all drinks
+
+Use @app.route('/drinks-detail') to get all drinks with the names
+
+Use @app.route('/drinks', methods=['POST']) to create a new drink
+
+Use @app.route('/drinks/<int:drink_id>', methods=['PATCH']) to update a drink
+
+Use @app.route('/drinks/<int:drink_id>', methods=['DELETE']) to delete a drink
